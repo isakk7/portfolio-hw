@@ -15,9 +15,7 @@ const Header = () => {
     return (
         <div className='header'>
 
-                    <div className="header__logo">
-                        <h1>Leedd</h1>
-                    </div>
+                 
 
             <nav className={active ? 'navbar active' : 'navbar'}>
 
@@ -36,6 +34,7 @@ const Header = () => {
                     </li>
                    
                 </ul>
+                
             </nav>
 
                     <div className="changer">

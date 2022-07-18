@@ -16,6 +16,7 @@ const Main = () => {
                             <h1>Isaac Adan Lopez</h1>
                             <h5>Soy una persona que le gusta mucho la tecnologia, y me gustaria aprender muchas cosas una vez terminada la carrera.
                                 </h5>
+                               
 
                             <div className="icons">
                                 <Twitter className='icon'/>

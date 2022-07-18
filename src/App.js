@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import './App.css';
+import Footer from './components/footer/footer';
 import Header from './components/header';
 import Main from './components/Main'
 
@@ -9,6 +10,7 @@ function App() {
     <div className='App'>
       <Header/>
       <Main/>
+      <Footer/>
     </div>
   );
 }
