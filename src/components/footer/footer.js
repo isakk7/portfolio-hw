@@ -1,21 +1,21 @@
 import React from 'react'
-import { Facebook, Instagram, LinkedIn, MenuBook, Pinterest, SettingsPowerRounded, Twitter } from '@material-ui/icons'
+import '../../styles/footer.scss'
 // import {Link} from 'react-router-dom'
 
 const Footer =() => {
 
     return(
         <div>
-            <footer className= 'text-white py-4 bg-dark'>
+            <footer className= 'text-dark py-4 bg-dark'>
                 <div className='container'>
                     <nav className='row'>
-                    <div className="icons">
-                                <Twitter className='icon'/>
-                                <Instagram className='icon'/>
-                                <Facebook className='icon'/>
-                                <LinkedIn className='icon'/>
-                                <Pinterest className='icon'/>
-                            </div>
+                    <div className="buttons">
+                        <button>See My Work</button>
+                        <button>Hire Me</button>
+                        <button>Hire Me</button>
+                        <button>Hire Me</button>
+                        <button>Hire Me</button>
+                    </div>
                     </nav>
                 </div>
             </footer>
